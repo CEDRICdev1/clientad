@@ -1,0 +1,82 @@
+
+.mainf{
+    background-image: url("/public/IMAGE/back.png");
+    background-repeat: repeat;
+  
+    
+    width: 100%;
+    height: auto;
+ }
+
+
+
+ .mainformation{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+ }
+
+ 
+ .mainformation h1{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    position: fixed;
+    z-index: 2;
+    left:auto ;
+    color: white;
+ }
+
+
+ .formations{
+    display:flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+ }
+
+ .rock{
+    flex-basis: 20%;
+   
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    background-color: bisque;
+    margin-top: 5%;
+   
+ }
+
+
+
+
+
+ .rock h2{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.rock p{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.v{
+    width:350px ;
+    height: 250px;
+    margin-top: -7.5%;
+    background-color: rgb(113, 38, 113);
+  
+}
+
+.v video{
+    width: 100%;
+    height: 100%;
+   
+}

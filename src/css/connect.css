@@ -1,0 +1,65 @@
+
+*{
+    background-color: black;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.mlogo img{
+
+    width:250px;
+    height: 250px;
+    margin-left: -0;
+}
+
+
+
+.men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 700px;
+   
+}
+
+.men ul{
+    display: flex;
+    
+}
+
+.men ul li{
+    list-style: none;
+
+}
+
+.men ul li a{
+    text-decoration: none;
+    padding-right:2rem;
+    color: white;
+    font-size:1rem ;
+    transition: all 0.5s;
+}
+
+
+.men ul li a:hover{
+    color: blueviolet;
+}
+span{
+    color: blueviolet;
+}
+
+.men h1{
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+       margin-bottom: 1%;
+    
+}
+
+
+/*   partie du corps de la parge */
+
